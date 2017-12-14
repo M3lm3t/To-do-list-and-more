@@ -20,7 +20,7 @@ var i;
             var div = this.parentElement;
             div.style.display = "none";
     }
-}
+} 
 
 //mark as done
 var list = document.querySelector("ul");
