@@ -4,18 +4,25 @@
     
 }
 #myDiv {
-    width: 300px;
+    width:15%;
     float: right;
     border: double;
     text-align: right;
-    overflow: hidden;
+    padding-right: 3%;
 }
 
- 
+#myInput {
+    position: relative;
+    width:60%;
+}
+
 
 ul {
     list-style-type: none;
-    text-align:center;
+    text-align: center;
+    height: 250px;
+   
+    overflow: auto;
 }
 
 .close {
@@ -23,10 +30,18 @@ ul {
     font-size:210%;
     }
 #listH {
+    position:relative;
     text-align:center;
   
 }
-
+li {
+    border: 1px solid black;
+    border-radius: 1px;
+    padding-right: 6px;
+    height: 20%;
+  
+    overflow: auto;
+}
 #rubbish {
     float: left;
     text-align: left;

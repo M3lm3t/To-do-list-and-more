@@ -20,7 +20,7 @@ var i;
             var div = this.parentElement;
             div.style.display = "none";
     }
-}  
+}
 
 //mark as done
 var list = document.querySelector("ul");
@@ -53,7 +53,7 @@ function newElement(){
     for (i = 0; i < close.length; i++) {
         close[i].onclick = function () {
             var div = this.parentElement;
-            div.style.display = "none":
+            div.style.display = "none";
         }
     }
     
